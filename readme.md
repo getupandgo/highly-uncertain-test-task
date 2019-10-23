@@ -5,8 +5,8 @@ docker-compose up
 ```
 
 #### Testing
-You can import postman collection from root folder with two requests - for basic ruleset and custom ruleset.
-Change path param to apply first or second ruleset
+You can import postman collection from root folder. It contains two requests - basic ruleset and custom ruleset.
+Change path param to apply first or second ruleset to data provided in body
 
 
 #### The theory
