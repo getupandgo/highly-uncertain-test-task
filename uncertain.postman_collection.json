@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "666e729b-cca9-4eca-b3e4-9434824319aa",
+		"name": "uncertain",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post custom",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"A\": true,\n\t\"B\": true,\n\t\"C\": true,\n\t\"D\": 1.0,\n\t\"E\": 10,\n\t\"F\": 15\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/substitution/custom/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"substitution",
+						"custom",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post base",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"A\": true,\n\t\"B\": true,\n\t\"C\": true,\n\t\"D\": 1.0,\n\t\"E\": 10,\n\t\"F\": 15\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/substitution/custom/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"substitution",
+						"custom",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
