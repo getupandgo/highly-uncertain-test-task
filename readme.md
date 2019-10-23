@@ -32,10 +32,17 @@ Formulas are named "expressions" as in the doc
 
 
 #### Known issues
-No tests as my time is limited and test task is generally small. 
+
+No tests as my time is limited and test task is relatively small. 
+
 Better error handling/wrapping (with error mechanism from newest golang release) 
+
 Different HTTP codes for different types of errors using gin middleware (e.g. not 500 for every error)
+
 Better validation on HTTP layer and int overflow checks in formulas
+
 Bump versions of alpine and golang in dockerfile
+
 Goimports
+
 Git tree with more than one commit ;)
