@@ -10,7 +10,7 @@ Change path param to apply first or second ruleset to data provided in body
 
 
 #### The theory
-Task fits well into finite state machine, as has input alphabet (custom_computation_index and A, B, C), output alphabet (the formulas) 
+Task fits well into finite state machine, as has input alphabet (rule type and A, B, C), output alphabet (the formulas) 
 and set of internal states [M, P, T].
 
 FSM approach isn't chosen, because:
